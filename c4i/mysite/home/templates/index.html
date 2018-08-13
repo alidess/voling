@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    {% extends "base.html" %}
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href= "{% static 'css/mystyle.css' %}" >
+</head>
+<body>
+{% block body %}
+<h1>hello from index {{ x }} </h1>
+{% endblock %}
+</body>
+</html>

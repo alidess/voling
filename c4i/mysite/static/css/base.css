@@ -1,0 +1,15 @@
+.nav-back{
+    background: #333
+}
+.navbar-brand, .nav-link{color:#ccc!important}
+footer{
+    position: absolute;
+    bottom: 1px;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+.text-muted{color:#ccc!important}
+
